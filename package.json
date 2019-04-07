@@ -1,17 +1,22 @@
 {
   "name": "ninjaba-node-line-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Line API for node",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ben Luu",
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:bluu926/ninjaba-node-line-api.git"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "superagent": "^5.0.2"
-  }
+  },
+  "homepage": "https://github.com/bluu926/ninjaba-node-line-api"
 }
