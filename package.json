@@ -4,13 +4,13 @@
   "description": "Line API for node",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node webhookServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ben Luu",
   "repository": {
-    "type" : "git",
-    "url" : "git@github.com:bluu926/ninjaba-node-line-api.git"
+    "type": "git",
+    "url": "git@github.com:bluu926/ninjaba-node-line-api.git"
   },
   "license": "ISC",
   "dependencies": {
