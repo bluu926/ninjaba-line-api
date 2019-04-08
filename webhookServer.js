@@ -38,7 +38,7 @@ app.post("/webhook/", line.validator.validateSignature(), (req, res, next) => {
         {
           type: "text",
           // text: event.message.text
-          text: "TEXT"
+          text: "Dynasty Fantasy Bot"
         }
       ]
     });
