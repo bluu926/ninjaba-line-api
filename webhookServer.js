@@ -32,16 +32,16 @@ app.post("/webhook/", line.validator.validateSignature(), (req, res, next) => {
   const promises = req.body.events.map(event => {
     // reply message
     console.log(event);
-    return line.client.replyMessage({
-      replyToken: event.replyToken,
-      messages: [
-        {
-          type: "text",
-          // text: event.message.text
-          text: "Dynasty Fantasy Bot"
-        }
-      ]
-    });
+    // return line.client.replyMessage({
+    //   replyToken: event.replyToken,
+    //   messages: [
+    //     {
+    //       type: "text",
+    //       // text: event.message.text
+    //       text: "Dynasty Fantasy Bot"
+    //     }
+    //   ]
+    // });
   });
   Promise.all(promises).then(() => res.json({ success: true }));
 });
